@@ -1,0 +1,156 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: #fff;
+}
+::-webkit-scrollbar {
+    background-color:black;
+    width:5px;
+}
+::-webkit-scrollbar-thumb{
+  background-color: silver;
+}
+/* start navigation */
+
+.navbar{
+  padding: 1.5rem 7rem;
+  background-color: #d92027;
+
+
+}
+.nav-link:hover{
+  color:#d92027;
+}
+.nav-link{
+  color:#fff;
+}
+.nav-link:hover{
+  color:#d92027;
+}
+
+/* introduction */
+
+.row{
+  margin-top:3rem;
+  padding-top: 6rem;
+}
+.title-text{
+  padding: 3rem 8rem;
+
+}
+ .intro:after {
+  content:"";
+  height: 3px;
+  width:10vw;
+  background-color: #000;
+  margin: auto 0.5rem;
+  display:inline-block;
+  transform: translateY(-8px);
+}
+.introtext{
+  display: inline-block;
+  margin-top: 2rem;
+
+}
+.title-image{
+  padding-left: 8rem;
+}
+.nav-item{
+  padding:0 20px;
+}
+/* aboutme */
+.about-me{
+  padding:3rem 10rem;
+}
+.img-fluid{
+  padding-left:10rem;
+  margin-top:1rem;
+}
+.abouttext{
+  letter-spacing:0.5rem;
+}
+
+/* education container */
+
+.edu-text{
+  letter-spacing: 0.5rem;
+  padding-bottom:3rem;
+
+  }
+  .tab{
+  margin-left: 9rem;
+  margin-top:5rem;
+}
+.table{
+  width:80%;
+}
+/* skill section */
+.firstrow{
+  margin-top:3rem;
+}
+.skillhead{
+  letter-spacing:0.5rem;
+}
+.skillhead:after {
+ content:"";
+ height: 3px;
+ width:15vw;
+ background-color: #000;
+ margin: 2rem 0.5rem;
+ display:block;
+ transform: translateY(-8px);
+}
+.myskill{
+  padding-top: 4rem;
+  padding-left:10rem;
+  padding-right: 10rem;
+  padding-bottom:0;
+}
+.icee{
+  margin-right: 0;
+  padding:0;
+  height:8rem;
+
+}
+.firstrow.col-lg-4{
+  display: flex;
+  justify-content: center;
+}
+.singleskill{
+  border: 1px solid var(--border-color);
+  text-align: center;
+  padding:1rem 0rem;
+  cursor: pointer;
+  transition: transform.4s ease;
+}
+.icee:hover{
+  box-shadow: var(--box-shadow);
+  transform: scale(1.1);
+  filter: brightness(0.7);
+}
+/* contact container */
+.contact-text{
+  padding:3rem 9rem;
+}
+.git{
+  letter-spacing: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+/* bottomcontainer */
+.bottomcontainer{
+  text-align: center;
+  padding-top:3rem;
+  padding-bottom:2rem;
+  background-color:#d92027;
+}
+.ice{
+  margin-right: 2rem;
+  margin-bottom:1.5rem;
+  color: black;
+}
+.ice:hover{
+  color:#fff;
+}
+.foot{
+  color: #000;
+}
